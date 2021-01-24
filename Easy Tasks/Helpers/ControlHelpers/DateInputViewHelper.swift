@@ -9,7 +9,6 @@ import UIKit
 import SnapKit
 
 class DateInputViewHelper {
-    
     var dateHandler: (Date) -> Void = { _ in }
     
     lazy private var dateInputView: DateInputView? = {

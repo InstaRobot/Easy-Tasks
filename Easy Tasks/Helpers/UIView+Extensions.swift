@@ -1,5 +1,5 @@
 //
-//  UIButton+Extensions.swift
+//  UIView+Extensions.swift
 //  Homework Tasks
 //
 //  Created by Vitaliy Podolskiy on 25.10.2020.

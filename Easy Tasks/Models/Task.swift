@@ -19,15 +19,6 @@ class Task: Object {
     override class func primaryKey() -> String? {
         return "id"
     }
-    
-//    override class func indexedProperties() -> [String] {
-//        return ["name", "id"]
-//    }
-    
-//    override class func ignoredProperties() -> [String] {
-//        return ["isFinished"]
-//    }
-    
 }
 
 struct TaskModel {

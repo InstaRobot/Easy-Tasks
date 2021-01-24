@@ -12,7 +12,6 @@ protocol TaskCellDelegate: class {
 }
 
 class TaskCell: UITableViewCell {
-    
     weak var delegate: TaskCellDelegate?
     
     @IBOutlet weak var whiteView: UIView! {
@@ -72,5 +71,4 @@ class TaskCell: UITableViewCell {
         
         return attributedText
     }
-
 }

@@ -8,7 +8,6 @@
 import UIKit
 
 class LessonCollectionViewCell: UICollectionViewCell {
-    
     @IBOutlet weak var roundView: UIView! {
         didSet {
             roundView.layer.cornerRadius = 10
@@ -46,7 +45,6 @@ class LessonCollectionViewCell: UICollectionViewCell {
             return .gray
         }
     }
-    
 }
 
 extension LessonCollectionViewCell: UIContextMenuInteractionDelegate {
@@ -67,5 +65,4 @@ extension LessonCollectionViewCell: UIContextMenuInteractionDelegate {
         }
         return UIMenu(title: "", children: [delete])
     }
-    
 }

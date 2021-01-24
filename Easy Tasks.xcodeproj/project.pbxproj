@@ -26,7 +26,7 @@
 		50A9AA202545890600C47CBA /* LessonInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A9AA1F2545890600C47CBA /* LessonInputView.swift */; };
 		50A9AA2325458D4E00C47CBA /* LessonInputViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A9AA2225458D4E00C47CBA /* LessonInputViewHelper.swift */; };
 		50A9AA262545942F00C47CBA /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A9AA252545942F00C47CBA /* GlobalHelpers.swift */; };
-		50A9AA2925459C0200C47CBA /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A9AA2825459C0200C47CBA /* UIButton+Extensions.swift */; };
+		50A9AA2925459C0200C47CBA /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A9AA2825459C0200C47CBA /* UIView+Extensions.swift */; };
 		50D86F7C2557F13F00E5FCAD /* DateInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D86F7B2557F13F00E5FCAD /* DateInputView.swift */; };
 		50D86F7F2557F34C00E5FCAD /* TimeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D86F7E2557F34C00E5FCAD /* TimeInputView.swift */; };
 		50D86F822557F3A700E5FCAD /* DateInputViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D86F812557F3A700E5FCAD /* DateInputViewHelper.swift */; };
@@ -59,7 +59,7 @@
 		50A9AA1F2545890600C47CBA /* LessonInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonInputView.swift; sourceTree = "<group>"; };
 		50A9AA2225458D4E00C47CBA /* LessonInputViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonInputViewHelper.swift; sourceTree = "<group>"; };
 		50A9AA252545942F00C47CBA /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
-		50A9AA2825459C0200C47CBA /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		50A9AA2825459C0200C47CBA /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		50D86F7B2557F13F00E5FCAD /* DateInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInputView.swift; sourceTree = "<group>"; };
 		50D86F7E2557F34C00E5FCAD /* TimeInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInputView.swift; sourceTree = "<group>"; };
 		50D86F812557F3A700E5FCAD /* DateInputViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInputViewHelper.swift; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 				5031B0BF253B0966006DABBC /* RealmObjects.swift */,
 				50A9AA1625457CD200C47CBA /* String+Extensions.swift */,
 				50A9AA252545942F00C47CBA /* GlobalHelpers.swift */,
-				50A9AA2825459C0200C47CBA /* UIButton+Extensions.swift */,
+				50A9AA2825459C0200C47CBA /* UIView+Extensions.swift */,
 				507030D52556A10800F123A7 /* UIColor+Extensions.swift */,
 				507031012556D7BF00F123A7 /* UIImage+Extensions.swift */,
 			);
@@ -356,7 +356,7 @@
 				507030D62556A10800F123A7 /* UIColor+Extensions.swift in Sources */,
 				507031022556D7BF00F123A7 /* UIImage+Extensions.swift in Sources */,
 				50F3835F2531D5D900FFCA33 /* CreateTaskViewController.swift in Sources */,
-				50A9AA2925459C0200C47CBA /* UIButton+Extensions.swift in Sources */,
+				50A9AA2925459C0200C47CBA /* UIView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

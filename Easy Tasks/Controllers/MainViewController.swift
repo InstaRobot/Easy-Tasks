@@ -9,7 +9,6 @@ import UIKit
 import UserNotifications
 
 class MainViewController: UIViewController {
-    
     private let notificationCenter = UNUserNotificationCenter.current()
     private let identifier = "studio.devlav.EasyTasks.notification"
     
@@ -126,7 +125,6 @@ class MainViewController: UIViewController {
 }
 
 extension MainViewController {
-    
     private func createLesson(with name: String, and hexColor: String) {
         let lesson = Lesson()
         lesson.name = name
@@ -201,7 +199,6 @@ extension MainViewController {
 }
 
 extension MainViewController: UICollectionViewDataSource, UICollectionViewDelegate {
-    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return lessons.count
     }
@@ -233,7 +230,6 @@ extension MainViewController: UICollectionViewDelegateFlowLayout {
 }
 
 extension MainViewController: UITableViewDataSource, UITableViewDelegate, TaskCellDelegate {
-    
     func onEditAction(task: TaskModel) {
         self.openForEdit(with: task)
     }
@@ -286,11 +282,9 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate, TaskCe
         configuration.performsFirstActionWithFullSwipe = false
         return configuration
     }
-    
 }
 
 extension MainViewController {
-    
     private func setData() {
         guard
             let results = RealmObjects.objects(type: Task.self) else {

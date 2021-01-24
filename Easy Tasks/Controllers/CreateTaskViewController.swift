@@ -12,7 +12,6 @@ enum Modes {
 }
 
 class CreateTaskViewController: UIViewController {
-    
     var closeHandler: () -> Void = { }
     
     var lessonIdentifier: String?
@@ -143,7 +142,6 @@ class CreateTaskViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
     }
-    
 }
 
 extension CreateTaskViewController: UIScrollViewDelegate {
@@ -153,7 +151,6 @@ extension CreateTaskViewController: UIScrollViewDelegate {
 }
 
 extension CreateTaskViewController {
-    
     private func prepareDefaultTime() {
         let date = Date()
         let calendar = Calendar.current
@@ -242,5 +239,4 @@ extension CreateTaskViewController {
         }
         
     }
-    
 }

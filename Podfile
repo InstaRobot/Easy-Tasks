@@ -7,7 +7,7 @@ target 'Easy Tasks' do
 
   # Pods for Homework Tasks
 
-	pod 'RealmSwift', '~> 5.5.0'
+	pod 'RealmSwift', '~> 10.5.1'
 	pod 'SnapKit'
 end
  
@@ -17,7 +17,6 @@ post_install do |installer|
              config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64'
              config.build_settings['EXCLUDED_ARCHS[sdk=watchsimulator*]'] = 'arm64'
              config.build_settings['EXCLUDED_ARCHS[sdk=appletvsimulator*]'] = 'arm64'
-    
          end
      end
  end

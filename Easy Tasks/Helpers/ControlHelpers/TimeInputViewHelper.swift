@@ -9,7 +9,6 @@ import UIKit
 import SnapKit
 
 class TimeInputViewHelper {
-    
     var rangeHandler: (String) -> Void = { _ in }
     
     lazy private var timeInputView: TimeInputView? = {

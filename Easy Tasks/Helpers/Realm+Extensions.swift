@@ -9,7 +9,6 @@ import Foundation
 import RealmSwift
 
 extension Object {
-    
     /// Добавление объекта в БД
     func add() {
         let realm = try? Realm()
